@@ -1,0 +1,4 @@
+name: Nukes
+version: '${project.version}'
+main: pegasus.nukes.Nukes
+api-version: '1.20'
