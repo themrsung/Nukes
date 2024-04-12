@@ -21,11 +21,7 @@ public final class Nukes extends JavaPlugin {
 
                 if (world == null) return;
 
-                var thread = new Thread(() -> {
-                    world.createExplosion(location, 175);
-                });
-
-                thread.start();
+                world.createExplosion(location, 175);
                 e.setCancelled(true);
             }
         }, this);
